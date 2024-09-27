@@ -4,7 +4,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Full viewport height */
+    min-height: 100vh; 
     background-color: #ffffff; 
     color: #333;
 }
@@ -55,7 +55,7 @@ body {
 
 /* Main content container */
 .content {
-    flex: 1; /* This will make the content area grow to fill the space */
+    flex: 1;
     padding: 50px;
     max-width: 1200px;
     margin: auto;
@@ -79,17 +79,17 @@ h2 {
 }
 
 .col img {
-    width: 100%; /* Ensures images fill the column */
-    height: 200px; /* Set the height to a fixed value */
-    object-fit: cover; /* Ensures images cover the area without distortion */
-    border-radius: 8px; /* Keep the rounded corners */
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 8px;
 }
 
 .col h3 {
     margin-top: 10px;
 }
 
-/* Profile Section */
+/* Profile section */
 .profile-section {
     border: 3px solid #008080;
     border-radius: 15px;
@@ -111,7 +111,7 @@ h2 {
     text-align: justify;
 }
 
-/* Content Section */
+/* Content section */
 .content h2 {
     color: black;
 }
@@ -127,20 +127,19 @@ h2 {
     background-color: #008080;
     color: white;
     text-align: center;
-    padding: 20px 0; /* Ensure padding is uniform */
+    padding: 20px 0; 
     width: 100%;
     position: relative;
     bottom: 0;
 }
 
-/* Apply Poppins font to food section */
 #localfood h2, 
 .col h3, 
 .col p {
     font-family: 'Poppins', sans-serif; /* Apply Poppins font */
 }
 
-/* Food Section */
+/* Food section */
 #localfood h2 {
     text-align: center;
     margin-bottom: 30px;
@@ -148,7 +147,7 @@ h2 {
     font-weight: 600;
 }
 
-/* Food Cards Container */
+/* Food cards container */
 .row {
     display: flex;
     justify-content: space-around;
@@ -157,7 +156,7 @@ h2 {
     padding: 20px;
 }
 
-/* Food Card Styles */
+/* Style for food cards */
 .col {
     width: 30%;
     background-color: white; 
@@ -173,7 +172,7 @@ h2 {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Food Card Image */
+/* Food images */
 .col img {
     width: 100%;
     height: 200px;
@@ -181,7 +180,7 @@ h2 {
     border-radius: 8px;
 }
 
-/* Food Card Title */
+/* Food card title */
 .col h3 {
     text-align: center;
     color: #008080;
@@ -190,7 +189,7 @@ h2 {
     font-weight: 600; 
 }
 
-/* Food Card Description */
+/* Food desc */
 .col p {
     text-align: justify;
     color: #555;
@@ -200,7 +199,7 @@ h2 {
     line-height: 1.6; 
 }
 
-/* Responsive Design */
+/* Responsive design */
 @media (max-width: 768px) {
     .col {
         width: 100%; 
@@ -215,32 +214,32 @@ h2 {
     border: 3px solid #008080;
     border-radius: 15px;
     padding: 15px;
-    background-color: #f9f9f9; /* Keep profile section background as light gray */
+    background-color: #f9f9f9; 
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     max-width: 600px;
     margin: 20px auto;
 }
 
 .profile-section h2 {
-    font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+    font-family: 'Poppins', sans-serif; 
     color: #030303;
     text-align: center;
-    font-size: 30px; /* Adjust this value for heading size */
+    font-size: 30px;
 }
 
 .profile-section p {
-    font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+    font-family: 'Poppins', sans-serif; 
     line-height: 1.6;
     color: #555;
     text-align: justify;
-    font-size: 14px; /* Adjust this value to your desired font size */
+    font-size: 14px; 
 }
 
 /* Apply Poppins font to tourist section */
 #touristplaces h2, 
 #touristplaces h3, 
 #touristplaces p {
-    font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+    font-family: 'Poppins', sans-serif; 
 }
 
 /* Tourist Places Header */
@@ -248,10 +247,10 @@ h2 {
     text-align: center;
     margin-bottom: 30px;
     color: #0b2957;
-    font-weight: 600; /* Make the title bold */
+    font-weight: 600; 
 }
 
-/* Tourist Cards Title and Content */
+/* Tourist Cards title and content */
 #touristplaces .col h3 {
     text-align: center;
     color: #0b2957;
